@@ -45,6 +45,21 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'blog',
               path: 'blog',
               builder: (context, params) => BlogWidget(),
+            ),
+            FFRoute(
+              name: 'privatepocily',
+              path: 'privatepocily',
+              builder: (context, params) => PrivatepocilyWidget(),
+            ),
+            FFRoute(
+              name: 'blog2',
+              path: 'blog2',
+              builder: (context, params) => Blog2Widget(),
+            ),
+            FFRoute(
+              name: 'blog3',
+              path: 'blog3',
+              builder: (context, params) => Blog3Widget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),

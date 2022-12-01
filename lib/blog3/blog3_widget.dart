@@ -5,14 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class BlogWidget extends StatefulWidget {
-  const BlogWidget({Key? key}) : super(key: key);
+class Blog3Widget extends StatefulWidget {
+  const Blog3Widget({Key? key}) : super(key: key);
 
   @override
-  _BlogWidgetState createState() => _BlogWidgetState();
+  _Blog3WidgetState createState() => _Blog3WidgetState();
 }
 
-class _BlogWidgetState extends State<BlogWidget> {
+class _Blog3WidgetState extends State<Blog3Widget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -43,70 +43,12 @@ class _BlogWidgetState extends State<BlogWidget> {
                   child: Stack(
                     children: [
                       Align(
-                        alignment: AlignmentDirectional(-0.9, -0.7),
+                        alignment: AlignmentDirectional(-0.9, -0.6),
                         child: Image.network(
-                          'https://www.actionservice.gr/wp-content/uploads/2020/09/photo-1596079890701-dd42edf0b7d4-1024x683.jpeg',
+                          'https://picsum.photos/seed/482/600',
                           width: 1000,
-                          height: 250,
+                          height: 290,
                           fit: BoxFit.cover,
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(-0.9, 0.1),
-                        child: Text(
-                          '1. Utilize Technology: Businesses should embrace digital technologies such as blockchain, artificial intelligence, and \nmachine learning to create a more efficient, transparent, and secure supply chain financing process.',
-                          style: FlutterFlowTheme.of(context).bodyText1,
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(-0.9, -0.1),
-                        child: Text(
-                          'How can we solve the credit crunch in supply chain Financing ',
-                          style:
-                              FlutterFlowTheme.of(context).bodyText1.override(
-                                    fontFamily: 'Poppins',
-                                    fontSize: 20,
-                                  ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(-0.9, 0.3),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 50),
-                          child: Text(
-                            '2. Increase Collaboration: Companies should actively collaborate with their suppliers to find creative ways of \nfinancing, such as longer payment terms, discounts for early payments, and improved inventory management.',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(-0.9, 0.45),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 50),
-                          child: Text(
-                            '3. Utilize Alternative Financing Options: Companies should explore alternative financing options such as invoice \nfactoring and trade finance to mitigate the risks associated with the credit crunch.',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(-0.9, 0.6),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 50),
-                          child: Text(
-                            '4. Leverage Government Programs: Governments should provide incentives to companies to invest in innovative \nsupply chain financing solutions, such as tax breaks and grants. ',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(-0.9, 0.75),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 50),
-                          child: Text(
-                            '5. Educate them About Financing Options: Companies should educate their suppliers and customers on the \ndifferent financing options available and how they can help alleviate the credit crunch.',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
                         ),
                       ),
                       Align(
@@ -115,6 +57,52 @@ class _BlogWidgetState extends State<BlogWidget> {
                           'https://drilca9ckdzo8.cloudfront.net/embi.svg',
                           width: 250,
                           fit: BoxFit.cover,
+                        ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(-0.9, 0),
+                        child: Text(
+                          'Save the build time, team’s bandwidth and yet build your own credit product',
+                          style:
+                              FlutterFlowTheme.of(context).bodyText1.override(
+                                    fontFamily: 'Poppins',
+                                    fontSize: 20,
+                                  ),
+                        ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(-0.9, 0.2),
+                        child: Text(
+                          '1. Utilize existing platforms: Take advantage of existing platforms and services that can provide a cost-effective, high-quality and speedy \nsolution for credit product development. This will save time and money as well as allow for customizations that fit the team’s needs.',
+                          style: FlutterFlowTheme.of(context).bodyText1,
+                        ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(-0.9, 0.8),
+                        child: Text(
+                          '4. Focus on customer experience: Make sure the credit product development process is focused on the customer experience. This will help \nthe team create a product that meets the needs of their target audience, thus increasing their chances of success.',
+                          style: FlutterFlowTheme.of(context).bodyText1,
+                        ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(-0.9, 0.45),
+                        child: Text(
+                          '2. Automate processes: Automate as much of the credit product development process as possible to save time and resources. \nAutomation is especially important when it comes to tasks that are time-consuming and complicated, such as \ncredit scoring and fraud prevention.\n',
+                          style: FlutterFlowTheme.of(context).bodyText1,
+                        ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(-0.9, 0.6),
+                        child: Text(
+                          '3. Leverage existing data: Use existing data sources, such as customer surveys and external databases to streamline the \ncredit product development process. This will help save time and money, as well as give the team better insights into \ncustomer behavior and creditworthiness.',
+                          style: FlutterFlowTheme.of(context).bodyText1,
+                        ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(-0.9, 0.95),
+                        child: Text(
+                          '5. Build a team: Assemble a team of experts who can help develop the product. Having a strong team in place \nwill ensure the product is developed efficiently and effectively, thus saving money and resources.\n',
+                          style: FlutterFlowTheme.of(context).bodyText1,
                         ),
                       ),
                       Align(
@@ -136,7 +124,7 @@ class _BlogWidgetState extends State<BlogWidget> {
                                   borderWidth: 1,
                                   buttonSize: 60,
                                   icon: Icon(
-                                    Icons.arrow_forward_ios_rounded,
+                                    Icons.arrow_forward_ios,
                                     color: FlutterFlowTheme.of(context)
                                         .primaryText,
                                     size: 30,
@@ -146,10 +134,21 @@ class _BlogWidgetState extends State<BlogWidget> {
                                   },
                                 ),
                               ),
-                              Image.network(
-                                'https://picsum.photos/seed/778/600',
-                                width: 200,
-                                fit: BoxFit.cover,
+                              Align(
+                                alignment: AlignmentDirectional(-0.7, 0.35),
+                                child: Image.network(
+                                  'https://picsum.photos/seed/778/600',
+                                  width: 200,
+                                  height: 200,
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                              Align(
+                                alignment: AlignmentDirectional(-0.2, -0.55),
+                                child: Text(
+                                  'Save your time in \nUnderstanding Credit',
+                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                ),
                               ),
                             ],
                           ),
@@ -174,32 +173,33 @@ class _BlogWidgetState extends State<BlogWidget> {
                                   borderWidth: 1,
                                   buttonSize: 60,
                                   icon: Icon(
-                                    Icons.arrow_forward_ios_outlined,
+                                    Icons.arrow_forward_ios,
                                     color: FlutterFlowTheme.of(context)
                                         .primaryText,
                                     size: 30,
                                   ),
                                   onPressed: () async {
-                                    context.pushNamed('blog3');
+                                    context.pushNamed('blog');
                                   },
                                 ),
                               ),
-                              Image.network(
-                                'https://picsum.photos/seed/482/600',
-                                width: 200,
-                                fit: BoxFit.cover,
+                              Align(
+                                alignment: AlignmentDirectional(-0.7, 0.35),
+                                child: Image.network(
+                                  'https://www.actionservice.gr/wp-content/uploads/2020/09/photo-1596079890701-dd42edf0b7d4-1024x683.jpeg',
+                                  width: 200,
+                                  height: 200,
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                              Align(
+                                alignment: AlignmentDirectional(-0.2, -0.55),
+                                child: Text(
+                                  'How can we solve the credit crunch in \nsupply chain Financing ',
+                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                ),
                               ),
                             ],
-                          ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(-0.9, 0.95),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 50),
-                          child: Text(
-                            '6. Increase access to capital: Governments and other financial institutions should make more capital available to businesses so that they can \naccess the funds needed to finance their supply chain activities. This could be done through the creation of new loan programs, the expansion \nof existing ones, or the creation of new financing instruments such as invoice financing or asset-based lending.',
-                            style: FlutterFlowTheme.of(context).bodyText1,
                           ),
                         ),
                       ),
